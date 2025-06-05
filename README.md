@@ -7,6 +7,7 @@ Steps to execute cypress tool:
 2. Enter command in terminal  : npm -i init (It creates Package.json folder with all deafult depedencies)
 3. Enter command in terminal  : npm install cypress --save-dev (It installs Cypress)
 4. Create Integration Folder under Cypress and add all Spec files under Integration Folder
+
 Before Runing Test Runner add changes in folder cypress.config.js folder add specPattern command below to link with integration folder
 e2e: {
     setupNodeEvents(on, config) {

@@ -1,6 +1,9 @@
-{
-  "url" : "https://rahulshettyacademy.com/loginpagePractise/",
-  "username" : "rahulshettyacademy",
-  "password" : "learning",
-  "productName" : "Nokia Edge"
-}
+[
+  {
+    "program" : "PageObjectDesignPattern&Fixture",
+    "url" : "https://rahulshettyacademy.com/loginpagePractise/",
+    "username" : "rahulshettyacademy",
+    "password" : "learning",
+    "productName" : "Nokia Edge"
+  }
+]
