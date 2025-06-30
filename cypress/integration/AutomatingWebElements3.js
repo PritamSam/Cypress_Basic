@@ -1,6 +1,6 @@
 
 
-define('Fifth Test Suite',function(){
+describe('Fifth Test Suite',function(){
     it("Automating Web Elements 3",function(){
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         //handling dynamic data from  table 

@@ -23,3 +23,15 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+// This is a custom command to login via API
+Cypress.Commands.add('LoginAPI', () => {
+    cy.request('POST','https://rahulshettyacademy.com/api/ecom/auth/login',
+        {userEmail: "Pritamsam17@gmail.com", userPassword: "PRIsam1998$@#"}).
+    then(function(response)
+    {
+        expect(response.status).to.eq(200);
+        Cypress.env('token',response.body.token);
+    });
+});

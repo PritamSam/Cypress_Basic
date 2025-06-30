@@ -1,6 +1,6 @@
 
 
-define('Sixth Test Suite',function(){
+describe('Sixth Test Suite',function(){
     it('Automating Web Elements 4',function(){
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         //Mouse Hover 

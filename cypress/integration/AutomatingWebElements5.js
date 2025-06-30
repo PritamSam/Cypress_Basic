@@ -1,6 +1,6 @@
 
 
-define('Seventh Test Suite',function(){
+describe('Seventh Test Suite',function(){
     it('Automating Web Elements 5',function(){
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         //handling web elements that redirects to new tab without invoke function

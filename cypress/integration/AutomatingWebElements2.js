@@ -1,6 +1,6 @@
 
 
-define('Fourth Test Suite',function(){
+describe('Fourth Test Suite',function(){
     it("Automating Web Elements 2",function(){
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         //handling Web Elements which redirects to new tab

@@ -1,5 +1,5 @@
 
-define('Ninth Test Suite',function(){
+describe('Ninth Test Suite',function(){
     it('Automating Web Elements 7',function(){
         const month = '7'
         const date = '25'
